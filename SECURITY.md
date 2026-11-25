@@ -1,9 +1,34 @@
-# 安全问题
+# Security Policy
 
-Cage 仍处于 Alpha。隔离与网络检查的范围见 [README](README.md) 和[网络与数据边界](docs/getting-started.md#网络与数据边界)。
+## Supported Versions
 
-请勿在公开 Issue 中上传代理订阅、节点密码、会话入口、访问令牌、完整配置目录或未脱敏的诊断输出。
+| Version | Supported |
+|---|---|
+| Latest release | ✅ |
+| Older releases | ❌ |
 
-如果发现可绕过隔离、读取未共享文件或访问控制接口的问题，请使用仓库的 **Security → Report a vulnerability** 私下报告。若该入口尚未启用，请先通过 [维护者的 GitHub 主页](https://github.com/Lee-xeo) 联系维护者，仅说明需要私下报告安全问题，不公开漏洞细节。
+## Reporting a Vulnerability
 
-报告请包含Cage 版本、操作系统版本与处理器架构、最小复现步骤、预期边界和实际结果。用测试文件和占位凭据复现，并说明是否仍在影响真实数据。
+**Please do not report security vulnerabilities through public GitHub issues.**
+
+Instead, please report them via **GitHub Security Advisories** (Private Vulnerability Reporting):
+
+1. Go to this repository's **Security** tab
+2. Click **"Report a vulnerability"**
+3. Fill in the details privately
+
+Alternatively, you may email the maintainer directly if GitHub Private Reporting is unavailable.
+
+### What to expect
+
+- **Acknowledgement** within 72 hours
+- **Status update** within 7 days
+- Credit in the release notes (unless you prefer to remain anonymous)
+
+### Out of scope
+
+- Issues in third-party dependencies (report to the upstream project)
+- Denial of service attacks requiring excessive resources
+- Social engineering attacks
+
+Thank you for helping keep this project secure.
